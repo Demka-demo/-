@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #menu1{
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            z-index: 10;
+        }
+        #menu1 ul{
+            position: relative;
+            display: block;
+            width: 100%;
+            height: auto;
+            z-index: 10;
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+      #menu1 > ul::after{
+          display: block;
+          width: 100%;
+          height: auto;
+          clear: both;
+          content: " ";
+          }
+      #menu1 ul li{
+          position: relative;
+          display: block;
+          float: left;
+          width: auto;
+          height: auto;
+      }
+      #menu1 ul li a{
+          display: block;
+          padding: 9px 25px 0px 25px;
+          font-size: 14px;
+          line-height: 1.3em;
+          text-decoration: none;
+          font-weight: bold;
+          text-transform: uppercase;
+          height: 36px;
+          box-sizing: border-box;
+          color: white;
+          }
+
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+
+    </style>
+</head>
+<body>
+    <header class="back-style">
+      <h1>Страница с контактами</h1>
+      <nav id="menu1">
+        <ul>
+            <li><a href="index.html">Информация про нашу команию</a></li>
+            <li><a href="https://jojo.fandom.com/ru/wiki/%D0%94%D0%B6%D0%BE%D0%94%D0%B6%D0%BE_%D0%92%D0%B8%D0%BA%D0%B8">👍Отзовы</a></li>
+                <ul>
+                  <li><a href="#">❓Вопросы</a></li>
+                  <li><a href="#">🙇Ответы</a></li>
+                  <li><a href="#">💬Комментарии</a></li>
+                </ul>
+        </ul>
+      </nav>
+</body>
+</html><!doctype html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
